@@ -60,9 +60,6 @@ dependencies {
     implementation(libs.ui.graphics)
     implementation(libs.ui.tooling.preview)
     implementation(libs.material3)
-    implementation(libs.tensorflow.lite.support)
-    implementation(libs.tensorflow.lite.metadata)
-    implementation(libs.tensorflow.lite.gpu)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)
@@ -73,5 +70,7 @@ dependencies {
 
     implementation (libs.retrofit)
     implementation (libs.converter.gson)
+    implementation (libs.androidx.lifecycle.viewmodel.compose)
+
 
 }
