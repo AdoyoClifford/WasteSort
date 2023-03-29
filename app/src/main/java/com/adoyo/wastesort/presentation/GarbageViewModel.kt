@@ -4,11 +4,14 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.adoyo.wastesort.domain.model.Prediction
 import com.adoyo.wastesort.domain.repository.GarbageRepository
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
-class GarbageViewModel(
+@HiltViewModel
+class GarbageViewModel @Inject constructor(
     private val garbageRepository: GarbageRepository
 ): ViewModel() {
 

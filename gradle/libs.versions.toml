@@ -2,6 +2,7 @@
 coil-compose = "2.3.0"
 com-android-application = "8.1.0-alpha10"
 converter-gson = "2.4.0"
+hilt-android-gradle-plugin = "2.40.1"
 lifecycle-viewmodel-compose = "2.6.1"
 org-jetbrains-kotlin-android = "1.7.20"
 core-ktx = "1.9.0"
@@ -22,6 +23,9 @@ androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-
 coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil-compose" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converter-gson" }
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt-android-gradle-plugin" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt-android-gradle-plugin" }
+hilt-android-gradle-plugin = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hilt-android-gradle-plugin" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
